@@ -17,7 +17,7 @@ useEffect(() => {
 console.log(rickandmorty)
   return (
     <div className= 'container'>
-        <h1>Lista Rick and Morty</h1> 
+        <h1>-Lista Rick and Morty</h1> 
         <div className= 'row' >
             {
                 rickandmorty.map((personajes, indice) => {
